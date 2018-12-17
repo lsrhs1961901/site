@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <title>PL's STORE</title>
+      <link rel="style" href="store-stylesheet.css">
   </head>
-  <body>
-
+<body>
+  <div class='container'>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href='store.html'>PL's Food Shop</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +24,10 @@
         <a class="nav-link" href="store.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Specials</a>
+        <a class="nav-link" href="checkout.html">Checkout</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="sites.html">Sites</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,9 +35,9 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="italian.html">Italian</a>
-          <a class="dropdown-item" href="#">Mexican</a>
-          <a class="dropdown-item" href="#">Asian</a>
-          <a class="dropdown-item" href="#">Comfort</a>
+          <a class="dropdown-item" href="mexican.html">Mexican</a>
+          <a class="dropdown-item" href="asian.html">Asian</a>
+          <a class="dropdown-item" href="soul-food.html">Soul</a>
         </div>
       </li>
     </ul>
@@ -56,7 +57,7 @@
           <img class="d-block w-100" src="carousel-tacos.png" alt="Mexican">
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="" alt="">
+          <img class="d-block w-100" src="bestcarouselsushi.png" alt="Asian">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -68,16 +69,36 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <body>
+      <div class='row'>
     <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="pasta.jpg" alt="Italian">
   <div class="card-body">
-    <p class="card-text">Come check out our amazing home made pastas and sauces. All natural and delicious.</p>
+    <p class="card-text"><a href='italian.html'>Come check out our amazing home made pastas and sauces. All natural and delicious!</a></p>
   </div>
 </div>
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="card-nachos.png" alt="Mexican">
+<div class="card-body">
+<p class="card-text"><a href="mexican.html">Come try our authentic Mexican food. Its super spicy, super fresh, and super good!!</a></p>
+</div>
+</div>
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="cardsushi.png" alt="Asian">
+<div class="card-body">
+<p class="card-text"><a href="asian.html">Try our authentic Asian cuisines, they will knock your socks off!!</a></p>
+</div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="bbq.png" alt="Soul">
+  <div class="card-body">
+    <p class="card-text"><a href="soul-food.html">Our soul food is the best around, come try it and I'm sure you will be impressed</a></p>
+</div>
+</body>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </div>
   </body>
-
 </html>
